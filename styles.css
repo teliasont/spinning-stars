@@ -1,4 +1,7 @@
- .space-container {
+@import "variables.css";
+
+
+.space-container {
      background: var(--surface__spacegradient);
     position: fixed; /* Fixes the div relative to the browser window */
     top: 0;          /* Aligns to the top edge */
