@@ -1,6 +1,16 @@
 @import "variables.css";
 
 
+.space {
+    background: var(--surface__spacebg);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+
 .space-container {
      background: var(--surface__spacegradient);
     position: fixed; /* Fixes the div relative to the browser window */
